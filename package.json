@@ -1,5 +1,5 @@
 {
-  "homepage": "htpp://austin-weeks.github.io/markdown-previewer",
+  "homepage": "htpp://austin-weeks.github.io/-markdown-previewer",
   "name": "-markdown-previewer",
   "private": true,
   "version": "0.0.0",
@@ -13,6 +13,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.1.5",
+    "marked": "^12.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

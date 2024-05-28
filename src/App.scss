@@ -1,45 +1,65 @@
-#root {
+$section-color-top: rgb(98, 103, 115);
+$section-color-bottom: rgb(76, 80, 89);
+
+$heading-color-top: rgb(67, 136, 239);
+$heading-color-botttom: rgb(50, 119, 223);
+
+$border: rgb(51, 51, 51);
+
+html {
     max-width: 1280px;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
 }
-
-.logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
+* {
+    box-sizing: border-box;
 }
 
-.logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
+.section {
+    background: linear-gradient($section-color-top, $section-color-bottom);
+    border-radius: 10px;
+    border: 1.5px solid $border;
+    max-width: 900px;
+    margin: 0 auto 1.5rem;
+    box-shadow: 0 0 8px rgb(171, 171, 171);
 }
+.editor-section {
+    max-width: 700px;
+    height: 17rem;
 
-.logo.react:hover {
-    filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    a:nth-of-type(2) .logo {
-        animation: logo-spin infinite 20s linear;
+    #editor {
+        background: none;
+        padding: 1em;
+        width: 100%;
+        height: 85%;
+        resize: none;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        color: inherit;
+        font-weight: 600;
     }
 }
+.preview-section {
+    min-height: 10rem;
 
-.card {
-    padding: 2em;
+    #preview {
+        text-align: left;
+        padding: 1rem;
+    }
+}
+.section-heading {
+    background: linear-gradient($heading-color-top, $heading-color-botttom);
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    border-bottom: 1.5px solid $border;
+    padding: 0.3em;
 }
 
-.read-the-docs {
-    color: #888;
+.ph {
+    position: relative;
+    top: 0.22em;
+    margin: 0 .3em;
+    font-size: 1.2em;
 }
