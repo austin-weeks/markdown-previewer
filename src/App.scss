@@ -4,7 +4,8 @@ $section-color-bottom: rgb(76, 80, 89);
 $heading-color-top: rgb(67, 136, 239);
 $heading-color-botttom: rgb(50, 119, 223);
 
-$border: rgb(51, 51, 51);
+$dark-background: rgb(20, 25, 31);
+$border: rgb(61, 61, 61);
 
 html {
     max-width: 1280px;
@@ -22,11 +23,11 @@ html {
     border: 1.5px solid $border;
     max-width: 900px;
     margin: 0 auto 1.5rem;
-    box-shadow: 0 0 8px rgb(171, 171, 171);
+    box-shadow: 0 0 8px rgb(131, 131, 131);
 }
 .editor-section {
     max-width: 700px;
-    height: 17rem;
+    height: 22rem;
 
     #editor {
         background: none;
@@ -50,6 +51,7 @@ html {
     }
 }
 .section-heading {
+    font-size: 1.4rem;
     background: linear-gradient($heading-color-top, $heading-color-botttom);
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
@@ -62,4 +64,30 @@ html {
     top: 0.22em;
     margin: 0 .3em;
     font-size: 1.2em;
+}
+
+blockquote {
+    border-left: 5px solid $border;
+    padding-left: 1em;
+}
+pre, code {
+    background: $dark-background;
+    border-radius: 6px;
+    padding: .3em;
+}
+pre {
+    padding: 1em;
+}
+th {
+    font-weight: 900;
+}
+table {
+    border-collapse: collapse;
+    * {
+        border: 2px solid $border;
+        padding: .3em;
+    }
+}
+img {
+    max-width: 100%;
 }

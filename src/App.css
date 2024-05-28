@@ -12,15 +12,15 @@ html {
 .section {
   background: linear-gradient(rgb(98, 103, 115), rgb(76, 80, 89));
   border-radius: 10px;
-  border: 1.5px solid rgb(51, 51, 51);
+  border: 1.5px solid rgb(61, 61, 61);
   max-width: 900px;
   margin: 0 auto 1.5rem;
-  box-shadow: 0 0 8px rgb(171, 171, 171);
+  box-shadow: 0 0 8px rgb(131, 131, 131);
 }
 
 .editor-section {
   max-width: 700px;
-  height: 17rem;
+  height: 22rem;
 }
 .editor-section #editor {
   background: none;
@@ -44,10 +44,11 @@ html {
 }
 
 .section-heading {
+  font-size: 1.4rem;
   background: linear-gradient(rgb(67, 136, 239), rgb(50, 119, 223));
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
-  border-bottom: 1.5px solid rgb(51, 51, 51);
+  border-bottom: 1.5px solid rgb(61, 61, 61);
   padding: 0.3em;
 }
 
@@ -56,4 +57,35 @@ html {
   top: 0.22em;
   margin: 0 0.3em;
   font-size: 1.2em;
+}
+
+blockquote {
+  border-left: 5px solid rgb(61, 61, 61);
+  padding-left: 1em;
+}
+
+pre, code {
+  background: rgb(20, 25, 31);
+  border-radius: 6px;
+  padding: 0.3em;
+}
+
+pre {
+  padding: 1em;
+}
+
+th {
+  font-weight: 900;
+}
+
+table {
+  border-collapse: collapse;
+}
+table * {
+  border: 2px solid rgb(61, 61, 61);
+  padding: 0.3em;
+}
+
+img {
+  max-width: 100%;
 }/*# sourceMappingURL=App.css.map */
