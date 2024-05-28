@@ -12,10 +12,10 @@ function InfoBtn() {
                 <QuestionMark color="#151502" weight="bold" />
             </div> }
             {infoOpen &&
-            <div className="info-panel" onClick={() => setInfoOpen(false)}>
+            <div className="info-panel">
                 This app was built for the <a target="_blank" href="https://freeCodeCamp.org">freeCodeCamp</a> Front
                 End Development Libraries Course. View more of my project on my <a href="https://austin-weeks.github.io">Portfolio</a>.
-                <div className="close-btn">
+                    <div className="close-btn" onClick={() => setInfoOpen(false)}>
                     <X weight="bold" />
                 </div>
             </div> }
