@@ -4,6 +4,16 @@ html {
   padding: 2rem;
   text-align: center;
 }
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  html {
+    font-size: 8px;
+  }
+}
 
 * {
   box-sizing: border-box;
