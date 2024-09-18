@@ -1,5 +1,5 @@
 # Markdown Previewer
-This is a project built for [freeCodeCamp](https://www.freecodecamp.org/learn/)'s Front End Development Libraries Course.
 
-View my other projects at my [portfolio](https://austin-weeks.github.io).
+Allow real-time previewing for GithHub-style markdown. View the app [here!](https://austin-weeks.github.io/markdown-previewer)
 
+This project was built for [freeCodeCamp](https://www.freecodecamp.org/learn/)'s Front End Development Libraries Course.
